@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+}
+/* This our navbar part so in this part we are right align our content */
+#nav {
+    display: flex;
+     justify-content: flex-end;
+}
+
+.nav-item {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* This our profile part so in this part we are showing our profile photo */
+.nav-pro {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(243, 179, 179);
+    margin-top: 20px;
+}
+
+/* This our google part */
+#middle {
+    margin-top: 130px;
+}
+
+.logo {
+    text-align: center;
+}
+
+#search {
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.serachbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 23px;
+    width: 500px;
+    padding-left: 33px;
+    padding-right: 30px;
+    outline: 0;
+    border: 1px solid rgba(223, 220, 220, 0.933);
+}
+
+.serachbar:hover {
+    box-shadow: 0 0 5px 1px rgb(204, 203, 203);
+}
+
+#searchlogo, #voicelogo {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchlogo{
+    left: 490px;
+    /* left: 0; */
+}
+
+#voicelogo {
+    right: 492px;
+    /* right: 0;     */
+}
+
+
+/* Button Part */
+
+#Button {
+    margin-top: 30px;  
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {  
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(245, 244, 244);
+    border: 2px solid transparent;
+}
+.buttons:hover {
+    box-shadow: 0 0 5px 1px black;   
+    border: 2px solid rgb(250, 250, 250);
+}
+
+/* Other link of language */
+#otherlinks {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#otherlinks a{
+    text-decoration: none;
+    margin: 8px;
+    
+}
+
+#otherlinks a:hover{
+    text-decoration: underline;   
+}
+
+/* Footer Part...........................................*/
+footer {
+    margin-top: 180px;
+	background: #f2f2f2;
+}
+footer h4 {
+	color: rgba(0,0,0, 0.54);
+	font-size: 15px;
+	line-height: 39.5px;
+	font-weight: 400;
+	padding-left: 29px;
+	border: 1px solid #eee;
+}
+footer a {
+	color: #5f6368;
+	display: inline-block;
+	padding: 12px 11.3px;
+	font-size: 14px;
+    text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.links {
+	border-top: 1px solid #ddd;
+	display: flex;
+}
+.link-1 {
+	padding-left: 18.7px;
+	flex: 1;
+}
+.link-2 {
+	padding-right: 18.7px;
+}
+
+#ind {
+    padding-top: 2px;
+    margin-bottom: 0px;
+}
+
+#menu {
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
